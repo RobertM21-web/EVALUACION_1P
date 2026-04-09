@@ -175,7 +175,13 @@ Al ejecutar `git status`, se comprobó que:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**1. ¿Qué es un Pull Request y cuál es su función?**
+
+Un Pull Request (PR) es una solicitud en GitHub para fusionar los cambios de una rama hacia otra. Su función principal es permitir que otros miembros del equipo revisen, comenten y aprueben los cambios antes de integrarlos a la rama principal. Es una herramienta clave en el flujo de trabajo colaborativo, ya que facilita la revisión de código, la discusión sobre los cambios propuestos y el control de calidad antes de fusionar.
+
+**2. ¿Por qué es importante revisar un Pull Request antes de fusionarlo?**
+
+Es importante revisar un Pull Request antes de fusionarlo porque permite detectar errores, bugs o problemas de calidad en el código antes de que lleguen a la rama principal. La revisión garantiza que los cambios cumplen con los estándares del proyecto, que no rompen funcionalidades existentes y que son comprensibles para el resto del equipo. Además, fomenta el intercambio de conocimiento entre los miembros del equipo.
 
 ---
 
