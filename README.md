@@ -77,7 +77,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**¿Qué es el archivo .gitignore?**
+
+El archivo `.gitignore` permite definir reglas para que Git ignore archivos y carpetas específicas, evitando que sean rastreados o incluidos en los commits. Es útil para excluir archivos temporales, logs, dependencias y otros archivos innecesarios del control de versiones.
+
+**Reglas configuradas en este proyecto:**
+
+- `*.log` → Ignora todos los archivos con extensión `.log` en cualquier ubicación del proyecto.
+- `temp/` → Ignora toda la carpeta `temp/` y su contenido.
+- `doc/*.md` y `doc/*.txt` → Ignora los archivos `.md` y `.txt` que estén dentro de la carpeta `doc/`.
+
+**Evidencia de funcionamiento:**
+
+Al ejecutar `git status`, se comprobó que:
+- `archivo.log` no aparece (ignorado correctamente).
+- La carpeta `temp/` no aparece (ignorada correctamente).
+- `doc/prueba.md` y `doc/prueba.txt` no aparecen (ignorados correctamente).
+- `prueba.md` y `prueba.txt` sí aparecen, ya que están fuera de `doc/` y no están afectados por las reglas del `.gitignore`.
+
+![Evidencia git status](images/p2_git_status.png)
 
 ---
 
