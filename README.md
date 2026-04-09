@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad Técnica de Ambato
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial
+### Carrera de Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Robert Montesdeoca
+**Fecha:** 08/04/2026
 
 ---
 
@@ -125,7 +125,27 @@ Al ejecutar `git status`, se comprobó que:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**Comandos utilizados:**
+
+1. `git flow init` → Inicializa Git Flow en el repositorio, configurando las ramas principales (main y develop) y los prefijos para las ramas de soporte.
+2. `git flow feature start ingresar-encabezado` → Crea una nueva rama feature/ingresar-encabezado a partir de develop y nos sitúa en ella.
+3. `git add README.md` + `git commit -m "Completar encabezado con datos personales del estudiante"` → Se realizó el commit con los cambios del encabezado.
+4. `git flow feature finish ingresar-encabezado` → Fusiona la rama feature en develop, elimina la rama feature y nos devuelve a develop.
+
+**Descripción del proceso:**
+
+- Se inicializó Git Flow con las ramas por defecto (main y develop).
+- Se creó la rama feature/ingresar-encabezado para desarrollar la funcionalidad de forma aislada.
+- En dicha rama se completaron los datos personales del estudiante en el encabezado del README.md.
+- Al finalizar, se fusionó la feature en develop siguiendo el flujo de Git Flow.
+
+**Ventajas de Git Flow:**
+
+- Permite trabajar en nuevas funcionalidades de forma aislada sin afectar el código principal.
+- Facilita la colaboración en equipo, ya que cada desarrollador puede trabajar en su propia rama feature sin conflictos.
+- Mantiene un historial de commits limpio y organizado.
+- Las ramas develop y main permiten separar el código en desarrollo del código en producción.
+- En proyectos de larga duración, ayuda a gestionar múltiples versiones y correcciones de forma ordenada.
 
 ---
 
@@ -155,7 +175,24 @@ Al ejecutar `git status`, se comprobó que:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**1. ¿Qué es un Pull Request y cuál es su función?**
+
+Un Pull Request (PR) es una solicitud en GitHub para fusionar los cambios de una rama hacia otra. Su función principal es permitir que otros miembros del equipo revisen, comenten y aprueben los cambios antes de integrarlos a la rama principal. Es una herramienta clave en el flujo de trabajo colaborativo, ya que facilita la revisión de código, la discusión sobre los cambios propuestos y el control de calidad antes de fusionar.
+
+**2. ¿Por qué es importante revisar un Pull Request antes de fusionarlo?**
+
+Es importante revisar un Pull Request antes de fusionarlo porque permite detectar errores, bugs o problemas de calidad en el código antes de que lleguen a la rama principal. La revisión garantiza que los cambios cumplen con los estándares del proyecto, que no rompen funcionalidades existentes y que son comprensibles para el resto del equipo. Además, fomenta el intercambio de conocimiento entre los miembros del equipo.
+
+**3. ¿Qué tipo de observaciones o validaciones se suelen realizar durante la revisión de un Pull Request?**
+
+Durante la revisión de un Pull Request se suelen realizar las siguientes observaciones y validaciones:
+- Revisión de la calidad del código: legibilidad, buenas prácticas y convenciones del proyecto.
+- Verificación de que los cambios funcionan correctamente y no introducen errores.
+- Comprobación de que no se rompen funcionalidades existentes.
+- Revisión de la documentación y comentarios en el código.
+- Validación de que los commits tienen mensajes claros y descriptivos.
+- Verificación de que se siguen los estándares de estilo del equipo.
+- Pruebas de funcionalidad y rendimiento cuando aplica.
 
 ---
 
