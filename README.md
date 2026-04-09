@@ -194,6 +194,16 @@ Durante la revisión de un Pull Request se suelen realizar las siguientes observ
 - Verificación de que se siguen los estándares de estilo del equipo.
 - Pruebas de funcionalidad y rendimiento cuando aplica.
 
+**Resumen del procedimiento:**
+
+1. Se respondió la primera pregunta teórica en develop y se hizo push.
+2. Se creó el Pull Request #1 desde develop hacia main con el título "Pregunta 4 - Montesdeoca Robert".
+3. Se creó un comentario solicitando la respuesta de la segunda pregunta, se agregó y se hizo push.
+4. Se creó un comentario solicitando la respuesta de la tercera pregunta, se agregó y se hizo push.
+5. Se aprobó y fusionó el Pull Request.
+
+**Enlace al Pull Request:** https://github.com/RobertM21-web/EVALUACION_1P/pull/1
+
 ---
 
 ## Pregunta 5 (2 puntos)
