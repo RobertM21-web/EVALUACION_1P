@@ -261,4 +261,21 @@ Durante la revisión de un Pull Request se suelen realizar las siguientes observ
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+**Proceso realizado:**
+
+1. Se cambió a la rama develop con `git checkout develop`.
+2. Se actualizó develop con los cambios de main usando `git pull origin main`.
+3. Los archivos archivoA.txt y archivoB.txt no existían en el repositorio, por lo que no fue necesario eliminarlos.
+4. Se realizó el merge de develop hacia main con `git checkout main` y `git merge develop`.
+5. Se enviaron los cambios y todos los tags al repositorio remoto.
+6. Se creó un Pull Request desde la rama develop del fork hacia la rama main del repositorio original.
+
+**Versionamiento Semántico:**
+
+El versionamiento semántico es un sistema de numeración de versiones que utiliza el formato MAJOR.MINOR.PATCH (ejemplo: 1.2.3) para comunicar de forma clara qué tipo de cambios se han realizado en el software.
+
+Sus tres componentes son:
+
+- **MAJOR (versión mayor):** Se incrementa cuando se realizan cambios incompatibles con versiones anteriores. Indica que hay modificaciones que pueden romper la compatibilidad. Ejemplo: pasar de 1.0.0 a 2.0.0.
+- **MINOR (versión menor):** Se incrementa cuando se agregan nuevas funcionalidades de manera compatible con versiones anteriores. Ejemplo: pasar de 1.0.0 a 1.1.0.
+- **PATCH (parche):** Se incrementa cuando se realizan correcciones de errores o bugs de manera compatible con versiones anteriores. Ejemplo: pasar de 1.0.0 a 1.0.1.
