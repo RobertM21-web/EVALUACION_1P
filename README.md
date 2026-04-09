@@ -125,7 +125,27 @@ Al ejecutar `git status`, se comprobó que:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**Comandos utilizados:**
+
+1. `git flow init` → Inicializa Git Flow en el repositorio, configurando las ramas principales (main y develop) y los prefijos para las ramas de soporte.
+2. `git flow feature start ingresar-encabezado` → Crea una nueva rama feature/ingresar-encabezado a partir de develop y nos sitúa en ella.
+3. `git add README.md` + `git commit -m "Completar encabezado con datos personales del estudiante"` → Se realizó el commit con los cambios del encabezado.
+4. `git flow feature finish ingresar-encabezado` → Fusiona la rama feature en develop, elimina la rama feature y nos devuelve a develop.
+
+**Descripción del proceso:**
+
+- Se inicializó Git Flow con las ramas por defecto (main y develop).
+- Se creó la rama feature/ingresar-encabezado para desarrollar la funcionalidad de forma aislada.
+- En dicha rama se completaron los datos personales del estudiante en el encabezado del README.md.
+- Al finalizar, se fusionó la feature en develop siguiendo el flujo de Git Flow.
+
+**Ventajas de Git Flow:**
+
+- Permite trabajar en nuevas funcionalidades de forma aislada sin afectar el código principal.
+- Facilita la colaboración en equipo, ya que cada desarrollador puede trabajar en su propia rama feature sin conflictos.
+- Mantiene un historial de commits limpio y organizado.
+- Las ramas develop y main permiten separar el código en desarrollo del código en producción.
+- En proyectos de larga duración, ayuda a gestionar múltiples versiones y correcciones de forma ordenada.
 
 ---
 
